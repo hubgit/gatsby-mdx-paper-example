@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
 const components = { cite: Cite }
 
-export default ({ children, metadata }) => (
+export const Layout = ({ children, metadata }) => (
   <>
     <Helmet title={metadata.title} />
     <GlobalStyle />

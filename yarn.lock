@@ -8873,6 +8873,13 @@ relay-runtime@2.0.0:
     "@babel/runtime" "^7.0.0"
     fbjs "^1.0.0"
 
+remark-citations@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/remark-citations/-/remark-citations-0.0.1.tgz#b9cd3eab1d80d49799c8875fc8a86de66712dc95"
+  integrity sha512-si3fnxb4VZXKBo4bIVzGKhSuH0K41an5zjm3u48Qr4YXR2Jey5N8LlP2AgxWle9K6+EqJ8dxor7x4Hs/xVSeVQ==
+  dependencies:
+    unist-util-visit "^2.0.0"
+
 remark-mdx@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/remark-mdx/-/remark-mdx-1.4.0.tgz#f50c2b47bdb61e71aa0e15e976277e568ae0d486"

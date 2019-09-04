@@ -1,6 +1,6 @@
 const remarkSubSuper = require('remark-sub-super')
 const remarkSectionize = require('remark-sectionize')
-const citations = require('./remark-plugins/citations')
+const remarkCitations = require('remark-citations')
 
 module.exports = {
   siteMetadata: {
@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        remarkPlugins: [remarkSubSuper, remarkSectionize, citations],
+        remarkPlugins: [remarkSubSuper, remarkSectionize, remarkCitations],
       },
     },
     {
